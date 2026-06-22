@@ -9,8 +9,8 @@ const CONFIG = {
   name: 'Hoang Dev',
   title: 'Digital Creator | MMO Expert | Tool Maker',
   tagline: 'Tôi xây. Bạn dùng. Cùng kiếm tiền.',
-  avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=hoang&backgroundColor=1a0a2e',
-  aboutAvatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=hoang2&backgroundColor=1a0a2e',
+  avatar: './avatar.jpg',
+  aboutAvatar: './avatar.jpg',
 
   // ── Social Links ──
   socials: [

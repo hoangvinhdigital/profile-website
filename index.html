@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hoang Dev — Digital Creator, MMO Expert & Tool Maker. Khám phá công cụ miễn phí, sản phẩm số và dịch vụ chuyên nghiệp.">
+  <meta name="keywords" content="Hoang Dev, digital creator, MMO, tools, công cụ miễn phí, web developer">
+  <meta name="author" content="Hoang Dev">
+  <meta property="og:title" content="Hoang Dev — Digital Creator & Tool Maker">
+  <meta property="og:description" content="Trang cá nhân của Hoang Dev. Công cụ miễn phí, sản phẩm số và dịch vụ chuyên nghiệp.">
+  <meta property="og:type" content="website">
+  <title>Hoang Dev | Digital Creator & Tool Maker</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- PRELOADER -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-content">
+      <div class="preloader-ring"></div>
+      <p class="preloader-text">LOADING...</p>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- FIXED CONTROLS -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+    <i class="fa-solid fa-moon"></i>
+  </button>
+  <button class="sound-toggle" id="sound-toggle" aria-label="Toggle sound">
+    <i class="fa-solid fa-volume-high"></i>
+  </button>
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- NAVIGATION -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <a href="#home" class="nav-logo" data-page="home">
+      <i class="fa-solid fa-bolt"></i> HoangDev
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home"     class="nav-link" data-page="home"    ><i class="fa-solid fa-house"></i> <span>Trang chủ</span></a></li>
+      <li><a href="#social"   class="nav-link" data-page="social"  ><i class="fa-solid fa-share-nodes"></i> <span>Mạng xã hội</span></a></li>
+      <li><a href="#shop"     class="nav-link" data-page="shop"    ><i class="fa-solid fa-bag-shopping"></i> <span>Sản phẩm</span></a></li>
+      <li><a href="#banking"  class="nav-link" data-page="banking" ><i class="fa-solid fa-credit-card"></i> <span>Ngân hàng</span></a></li>
+      <li><a href="#projects" class="nav-link" data-page="projects"><i class="fa-solid fa-rocket"></i> <span>Dự án</span></a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- PAGES CONTAINER -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <div class="pages-container" id="pages-container">
+
+    <!-- ─────────────────────────────────────── -->
+    <!-- PAGE: HOME -->
+    <!-- ─────────────────────────────────────── -->
+    <div class="page" id="page-home">
+
+      <!-- HERO -->
+      <section class="hero" id="hero">
+        <div class="hero-particles" id="hero-particles"></div>
+        <div class="hero-bg-grid"></div>
+        <div class="hero-content">
+          <div class="avatar-container scroll-animate">
+            <div class="avatar-wrapper">
+              <img id="hero-avatar" src="https://api.dicebear.com/7.x/avataaars/svg?seed=hoang&backgroundColor=1a0a2e" alt="Hoang Dev Avatar">
+              <div class="verified-badge" title="Verified"><i class="fa-solid fa-check"></i></div>
+            </div>
+          </div>
+          <h1 class="hero-name scroll-animate" id="hero-name">Hoang Dev</h1>
+          <p class="hero-title scroll-animate" id="hero-title">Digital Creator | MMO Expert | Tool Maker</p>
+          <p class="hero-tagline scroll-animate" id="hero-tagline">"Tôi xây. Bạn dùng. Cùng kiếm tiền."</p>
+          <div class="hero-cta-group scroll-animate">
+            <a href="#projects" class="cta-button primary" data-page="projects">
+              <i class="fa-solid fa-rocket"></i> Khám phá dự án
+            </a>
+            <a href="#social" class="cta-button secondary" data-page="social">
+              <i class="fa-solid fa-share-nodes"></i> Theo dõi tôi
+            </a>
+          </div>
+          <div class="scroll-indicator">
+            <div class="mouse"><div class="wheel"></div></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="page-section" id="about">
+        <div class="section-container">
+          <div class="section-title scroll-animate">
+            <span class="section-label">Về tôi</span>
+            <h2>Xin chào, tôi là <span class="gradient-text">Hoang Dev</span></h2>
+            <p>Một người đam mê công nghệ, kiếm tiền online và xây dựng công cụ số</p>
+          </div>
+          <div class="about-grid">
+            <div class="about-image scroll-animate slide-left">
+              <div class="about-img-wrapper">
+                <img id="about-avatar" src="https://api.dicebear.com/7.x/avataaars/svg?seed=hoang2&backgroundColor=1a0a2e&mood=happy" alt="About Hoang Dev">
+                <div class="about-img-badge">
+                  <i class="fa-solid fa-certificate"></i>
+                  <span>Verified Creator</span>
+                </div>
+              </div>
+            </div>
+            <div class="about-content scroll-animate slide-right">
+              <p class="about-text">
+                Tôi là <strong>Hoang Dev</strong> — Digital Creator chuyên về MMO, làm công cụ tự động hóa và kiếm tiền online. Với nhiều năm kinh nghiệm trong lĩnh vực công nghệ số, tôi đã xây dựng hàng chục công cụ giúp hàng nghìn người tối ưu hóa công việc của mình.
+              </p>
+              <p class="about-text">
+                Sứ mệnh của tôi là <em>giúp mọi người tiếp cận công nghệ dễ dàng hơn</em>, từ những công cụ miễn phí đến các khóa học thực chiến. Mọi thứ tôi xây đều xuất phát từ nhu cầu thực tế.
+              </p>
+              <div class="about-stats">
+                <div class="stat-item scroll-animate" data-delay="0">
+                  <span class="stat-number" data-target="5">0</span>
+                  <span class="stat-suffix">+</span>
+                  <span class="stat-label">Năm kinh nghiệm</span>
+                </div>
+                <div class="stat-item scroll-animate" data-delay="100">
+                  <span class="stat-number" data-target="20">0</span>
+                  <span class="stat-suffix">+</span>
+                  <span class="stat-label">Sản phẩm</span>
+                </div>
+                <div class="stat-item scroll-animate" data-delay="200">
+                  <span class="stat-number" data-target="100">0</span>
+                  <span class="stat-suffix">K+</span>
+                  <span class="stat-label">Lượt tải</span>
+                </div>
+                <div class="stat-item scroll-animate" data-delay="300">
+                  <span class="stat-number" data-target="5">0</span>
+                  <span class="stat-suffix">K+</span>
+                  <span class="stat-label">Khách hàng</span>
+                </div>
+              </div>
+              <div class="about-actions">
+                <a href="#projects" class="cta-button primary sm" data-page="projects">
+                  <i class="fa-solid fa-arrow-right"></i> Xem dự án
+                </a>
+                <a href="#shop" class="cta-button ghost sm" data-page="shop">
+                  <i class="fa-solid fa-bag-shopping"></i> Xem sản phẩm
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="page-section" id="skills">
+        <div class="section-container">
+          <div class="section-title scroll-animate">
+            <span class="section-label">Kỹ năng</span>
+            <h2>Những gì tôi <span class="gradient-text">làm được</span></h2>
+            <p>Từ lập trình đến marketing — tôi có thể giúp bạn ở nhiều mảng khác nhau</p>
+          </div>
+          <div class="skills-grid" id="skills-grid">
+            <!-- Rendered by JS -->
+          </div>
+        </div>
+      </section>
+
+      <!-- TECH STACK -->
+      <section class="page-section" id="tech-stack">
+        <div class="section-container">
+          <div class="section-title scroll-animate">
+            <span class="section-label">Công nghệ</span>
+            <h2>Tech <span class="gradient-text">Stack</span></h2>
+            <p>Các công nghệ và công cụ tôi sử dụng thường xuyên</p>
+          </div>
+          <div class="tech-grid" id="tech-grid">
+            <!-- Rendered by JS -->
+          </div>
+        </div>
+      </section>
+
+    </div>
+    <!-- /page-home -->
+
+    <!-- ─────────────────────────────────────── -->
+    <!-- PAGE: SOCIAL -->
+    <!-- ─────────────────────────────────────── -->
+    <div class="page" id="page-social">
+      <section class="page-section page-hero-mini">
+        <div class="section-container">
+          <div class="section-title scroll-animate">
+            <span class="section-label">Kết nối</span>
+            <h2>Mạng <span class="gradient-text">Xã hội</span></h2>
+            <p>Theo dõi tôi để cập nhật nội dung mới nhất mỗi ngày</p>
+          </div>
+          <div class="social-grid" id="social-grid">
+            <!-- Rendered by JS -->
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ─────────────────────────────────────── -->
+    <!-- PAGE: SHOP -->
+    <!-- ─────────────────────────────────────── -->
+    <div class="page" id="page-shop">
+      <section class="page-section page-hero-mini">
+        <div class="section-container">
+          <div class="section-title scroll-animate">
+            <span class="section-label">Mua sắm</span>
+            <h2>Sản phẩm <span class="gradient-text">&amp; Dịch vụ</span></h2>
+            <p>Công cụ và khóa học giúp bạn kiếm tiền online hiệu quả hơn</p>
+          </div>
+          <div class="shop-filters scroll-animate" id="shop-filters">
+            <button class="filter-btn active" data-category="all"><i class="fa-solid fa-border-all"></i> Tất cả</button>
+            <button class="filter-btn"        data-category="tool"><i class="fa-solid fa-screwdriver-wrench"></i> Tool</button>
+            <button class="filter-btn"        data-category="khoa-hoc"><i class="fa-solid fa-graduation-cap"></i> Khóa học</button>
+            <button class="filter-btn"        data-category="template"><i class="fa-solid fa-palette"></i> Template</button>
+            <button class="filter-btn"        data-category="dich-vu"><i class="fa-solid fa-gears"></i> Dịch vụ</button>
+          </div>
+          <div class="shop-grid" id="shop-grid">
+            <!-- Rendered by JS -->
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ─────────────────────────────────────── -->
+    <!-- PAGE: BANKING -->
+    <!-- ─────────────────────────────────────── -->
+    <div class="page" id="page-banking">
+      <section class="page-section page-hero-mini">
+        <div class="section-container">
+          <div class="section-title scroll-animate">
+            <span class="section-label">Thanh toán</span>
+            <h2>Thông tin <span class="gradient-text">Ngân hàng</span></h2>
+            <p>Chuyển khoản nhanh — an toàn — chính xác. Bấm sao chép số tài khoản ngay!</p>
+          </div>
+          <div class="bank-carousel" id="bank-carousel">
+            <!-- Rendered by JS -->
+          </div>
+          <div class="bank-notice scroll-animate">
+            <i class="fa-solid fa-shield-halved"></i>
+            <span>Thông tin tài khoản được mã hóa và bảo mật. Vui lòng kiểm tra kỹ trước khi chuyển khoản.</span>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ─────────────────────────────────────── -->
+    <!-- PAGE: PROJECTS -->
+    <!-- ─────────────────────────────────────── -->
+    <div class="page" id="page-projects">
+      <section class="page-section page-hero-mini">
+        <div class="section-container">
+          <div class="section-title scroll-animate">
+            <span class="section-label">Sản phẩm của tôi</span>
+            <h2>Dự án <span class="gradient-text">&amp; Công cụ miễn phí</span></h2>
+            <p>Những công cụ tôi tự xây dựng — tặng miễn phí cho cộng đồng</p>
+          </div>
+          <div class="projects-grid" id="projects-grid">
+            <!-- Rendered by JS -->
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </div>
+  <!-- /pages-container -->
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- MODAL -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <div class="toast" id="toast"></div>
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- FOOTER -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <footer id="site-footer">
+    <div class="footer-inner">
+      <p class="footer-brand"><i class="fa-solid fa-bolt"></i> HoangDev</p>
+      <p class="footer-copy">
+        Made with <span class="footer-heart"><i class="fa-solid fa-heart"></i></span> by
+        <a href="#home" data-page="home">Hoang Dev</a>
+        &copy; <span id="footer-year">2026</span>
+      </p>
+      <div class="footer-socials" id="footer-socials">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -505,7 +505,7 @@ function initBankCopy() {
       soundManager.playCopy();
       soundManager.playDing();
       
-      btn.innerHTML = '<i class="fa-solid fa-check"></i> Đã copy!';
+      btn.innerHTML = 'ĐÃ COPY!';
       btn.classList.add('copied');
       
       setTimeout(() => {
@@ -513,9 +513,9 @@ function initBankCopy() {
         btn.classList.remove('copied');
       }, 2000);
       
-      showToast(`✅ Đã sao chép: ${account}`);
+      showToast(`SAO CHÉP: ${account}`);
     }).catch(() => {
-      showToast('⚠️ Không thể sao chép, vui lòng copy thủ công.');
+      showToast('LỖI: KHÔNG THỂ SAO CHÉP');
     });
   });
 }

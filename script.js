@@ -14,13 +14,13 @@ const CONFIG = {
 
   // ── Social Links ──
   socials: [
-    { platform: 'facebook',  name: 'Facebook',  desc: '@HoangDev',       url: 'https://facebook.com/',      icon: 'fa-brands fa-facebook-f',  color: '#1877f2' },
-    { platform: 'tiktok',    name: 'TikTok',    desc: '@hoangdev_mmо',   url: 'https://tiktok.com/',        icon: 'fa-brands fa-tiktok',       color: '#ff0050' },
-    { platform: 'youtube',   name: 'YouTube',   desc: 'HoangDev Channel', url: 'https://youtube.com/',       icon: 'fa-brands fa-youtube',      color: '#ff0000' },
-    { platform: 'instagram', name: 'Instagram', desc: '@hoangdev.ig',    url: 'https://instagram.com/',     icon: 'fa-brands fa-instagram',    color: '#e4405f' },
-    { platform: 'telegram',  name: 'Telegram',  desc: 'Nhóm cộng đồng',  url: 'https://t.me/',              icon: 'fa-brands fa-telegram',     color: '#0088cc' },
-    { platform: 'discord',   name: 'Discord',   desc: 'Server Discord',   url: 'https://discord.gg/',        icon: 'fa-brands fa-discord',      color: '#5865f2' },
-    { platform: 'email',     name: 'Email',     desc: 'contact@example.com', url: 'mailto:contact@example.com', icon: 'fa-solid fa-envelope',   color: '#ffd700' }
+    { platform: 'facebook',  name: 'Facebook',  desc: 'Trang cá nhân',         url: 'https://www.facebook.com/profile.php?id=100089504226668', icon: 'fa-brands fa-facebook-f',  color: '#1877f2' },
+    { platform: 'tiktok',    name: 'TikTok',    desc: '@_hoagn.zihh_',         url: 'https://tiktok.com/@_hoagn.zihh_',                        icon: 'fa-brands fa-tiktok',       color: '#ff0050' },
+    { platform: 'telegram',  name: 'Telegram',  desc: '@victornguyendigital',  url: 'https://t.me/victornguyendigital',                        icon: 'fa-brands fa-telegram',     color: '#0088cc' },
+    { platform: 'email',     name: 'Email',     desc: 'hoangvinh@protonmail.com', url: 'mailto:hoangvinh@protonmail.com',                      icon: 'fa-solid fa-envelope',   color: '#ffd700' },
+    { platform: 'youtube',   name: 'YouTube',   desc: 'HoangDev Channel',      url: 'https://youtube.com/',                                    icon: 'fa-brands fa-youtube',      color: '#ff0000' },
+    { platform: 'instagram', name: 'Instagram', desc: '@hoangdev.ig',          url: 'https://instagram.com/',                                  icon: 'fa-brands fa-instagram',    color: '#e4405f' },
+    { platform: 'discord',   name: 'Discord',   desc: 'Server Discord',        url: 'https://discord.gg/',                                     icon: 'fa-brands fa-discord',      color: '#5865f2' }
   ],
 
   // ── Products ──

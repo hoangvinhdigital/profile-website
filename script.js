@@ -35,11 +35,9 @@ const CONFIG = {
 
   // ── Bank Accounts ──
   banks: [
-    { name: 'Vietcombank', class: 'vietcombank', account: '1234567890123', holder: 'NGUYEN VAN HOANG', logo: 'fa-solid fa-building-columns' },
-    { name: 'Techcombank', class: 'techcombank', account: '9876543210987', holder: 'NGUYEN VAN HOANG', logo: 'fa-solid fa-landmark' },
-    { name: 'MB Bank',     class: 'mbbank',      account: '5555666677778', holder: 'NGUYEN VAN HOANG', logo: 'fa-solid fa-credit-card' },
-    { name: 'MoMo',        class: 'momo',        account: '0987654321',    holder: 'NGUYEN VAN HOANG', logo: 'fa-solid fa-mobile-screen-button' },
-    { name: 'TP Bank',     class: 'tpbank',      account: '1112223334445', holder: 'NGUYEN VAN HOANG', logo: 'fa-solid fa-coins' }
+    { name: 'MB Bank', class: 'mbbank', account: '090696', holder: 'NGUYEN HOANG VINH', logo: 'fa-solid fa-building-columns' },
+    { name: 'MB Bank', class: 'mbbank', account: '596783', holder: 'NGUYEN HOANG VINH', logo: 'fa-solid fa-building-columns' },
+    { name: 'ZaloPay', class: 'zalopay', account: '0397772987', holder: 'NGUYEN HOANG VINH', logo: 'fa-solid fa-wallet' }
   ],
 
   // ── Projects & Free Tools ──

@@ -25,9 +25,11 @@ const CONFIG = {
 
   // ── Products ──
   products: [
+    { name: 'Locket Gold',           category: 'dich-vu',  price: '30.000đ',    image: '', description: 'Nâng cấp tài khoản Locket Gold, sử dụng ổn định lâu dài.' },
+    { name: 'Khôi phục dữ liệu thẻ nhớ', category: 'dich-vu', price: 'Liên hệ', image: '', description: 'Chuyên khôi phục dữ liệu thẻ nhớ bị xóa, bị format hoặc lỗi không nhận thẻ.' },
     { name: 'Auto Tool Pro',         category: 'tool',     price: '500.000đ',   image: '', description: 'Công cụ tự động hóa mạnh mẽ, tiết kiệm 80% thời gian.' },
     { name: 'Khóa Học MMO A-Z',      category: 'khoa-hoc', price: '1.200.000đ', image: '', description: 'Học kiếm tiền online từ con số 0, có mentor hỗ trợ 1-1.' },
-    { name: 'Template Landing Page',  category: 'template', price: '300.000đ',   image: '', description: 'Template web bán hàng chuyên nghiệp, tỷ lệ chuyển đổi cao.' },
+    { name: 'Template Landing Page', category: 'template', price: '300.000đ',   image: '', description: 'Template web bán hàng chuyên nghiệp, tỷ lệ chuyển đổi cao.' },
     { name: 'Setup VPS & Server',    category: 'dich-vu',  price: 'Liên hệ',    image: '', description: 'Dịch vụ cài đặt và tối ưu server chuyên nghiệp.' },
     { name: 'Bot Telegram Premium',  category: 'tool',     price: '800.000đ',   image: '', description: 'Bot tự động quản lý nhóm Telegram, tích hợp AI.' },
     { name: 'Pack Design Social',    category: 'template', price: '200.000đ',   image: '', description: '100+ mẫu thiết kế đẹp cho tất cả mạng xã hội.' }
